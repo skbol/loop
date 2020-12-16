@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;600&display=swap');
+
+:root{
+    --gray-dark: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-1{
+    flex: 1;
+}
+
+.flex-column{
+    flex-direction: column;
+}

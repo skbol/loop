@@ -1,0 +1,320 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Dosis','Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.main {
+  padding-top: 7rem;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: rgba(19, 24, 29, 0.8);
+  background-image: url(../assets/mainbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-blend-mode: multiply;
+  background-position: 50% 50% !important;
+}
+
+.main h1, .main p {
+  font-family: 'Dosis';
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.main h1 {
+  font-size: 8rem;
+}
+
+.main p {
+  font-size: 3rem;
+}
+
+.main2 {
+  background-color: var(--gray-dark);
+  padding: 7rem 10% 5rem 10%;
+}
+
+.main2 img {
+  height: 40rem;
+  width: auto;
+  margin-left: 15rem;
+}
+
+.main2 .main2-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main2 .main2-content h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: 'Dosis';
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.main2 .main2-content p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Dosis';
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+.main3 {
+  height: 60vh;
+  width: 100vw;
+  background-color: rgba(19, 24, 29, 0.9);
+  background-blend-mode: multiply;
+  background-image: url(../assets/sec2bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 70% !important;
+  padding: 7rem 10% 5rem 10%;
+}
+
+.main3 .news {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main3 .news h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: 'Dosis';
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.main3 .news p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Dosis';
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.main3 .news form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main3 .news form input[type='email'] {
+  height: 5rem;
+  width: 50rem;
+  padding: 0.5rem 1.5rem;
+  border: white solid 3px;
+  background-color: rgba(19, 24, 29, 0.9);
+  color: white;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.main3 .news form input[type='submit'] {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  height: 5rem;
+  width: 15rem;
+  padding: 1rem;
+  background-color: rgba(19, 24, 29, 0.9);
+  color: white;
+  border-style: none;
+  border: white solid 3px;
+  cursor: pointer;
+}
+
+.main4 {
+  width: 100vw;
+  padding: 7rem 0 3rem 0;
+  background-color: var(--gray-dark);
+}
+
+.main4 h2 {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Dosis';
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+  letter-spacing: 0.3rem;
+}
+
+.main4 .wrapper {
+  padding: 0 10%;
+}
+
+.main4 .wrapper .banner {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main4 .wrapper .banner .circle {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background: #0F2027;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2C5364), color-stop(#203A43), to(#0F2027));
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 3rem;
+}
+
+.main4 .wrapper .banner .circle svg {
+  width: 60%;
+  height: 60%;
+}
+
+.main4 .wrapper .banner h4, .main4 .wrapper .banner p {
+  font-family: 'Dosis';
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main4 .wrapper .banner h4 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.main4 .wrapper .banner p {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.main5 {
+  background-color: rgba(19, 24, 29, 0.9);
+  background-position: 50% 50% !important;
+  background-image: url(../assets/sec1bg.jpg);
+  background-repeat: repeat;
+  background-size: cover !important;
+  background-blend-mode: multiply;
+}
+
+.main5 .hero {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 7rem 0 5rem 10%;
+}
+
+.main5 .hero h1, .main5 .hero p {
+  font-family: 'Dosis';
+  font-weight: 300;
+  color: white;
+}
+
+.main5 .hero h1 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 0.3rem;
+  font-size: 3.5rem;
+}
+
+.main5 .hero p {
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
+}
+
+.main5 .available {
+  padding: 7rem 5% 5rem 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main5 .available .android, .main5 .available .ios, .main5 .available .windows {
+  height: 10rem;
+  width: 30rem;
+  padding: 1rem 0.5rem;
+  background: #0F2027;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2C5364), color-stop(#203A43), to(#0F2027));
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 2rem;
+}
+
+.main5 .available .android h2, .main5 .available .ios h2, .main5 .available .windows h2 {
+  color: white;
+  font-size: 2.3rem;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Dosis';
+  font-weight: 300;
+}
+
+.main5 .available .android .banner-container, .main5 .available .ios .banner-container, .main5 .available .windows .banner-container {
+  cursor: pointer;
+}
+
+.footer {
+  position: relative;
+  z-index: -5;
+  height: 100vh;
+  width: 100vw;
+  padding: 9rem 0 3rem 0;
+  background-color: #343a40;
+}
+
+.footer h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Dosis';
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+  letter-spacing: 0.3rem;
+}
+
+.footer .copyright {
+  width: 100vw;
+  padding: 1rem;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .copyright p {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

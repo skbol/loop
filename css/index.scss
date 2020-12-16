@@ -1,0 +1,278 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Dosis','Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+.main{
+    padding-top: 7rem;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgba(19, 24, 29,0.8);
+    background-image: url(../assets/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-blend-mode: multiply;
+    background-position: 50% 50% !important;
+    h1,p{
+        font-family: 'Dosis';
+        font-weight: 300;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+    }
+    
+    h1{
+        font-size: 8rem;
+    }
+    p{
+        font-size: 3rem;
+    }
+    
+}
+
+.main2{
+    background-color: var(--gray-dark);
+    padding: 7rem 10% 5rem 10%;
+
+    img{
+        height: 40rem;
+        width: auto;
+        margin-left: 15rem;
+    }
+    .main2-content{
+        flex: 1;
+        h1{
+            flex: 1;
+            color: white;
+            font-size: 5rem;
+            text-transform: uppercase;
+            font-family: 'Dosis';
+            font-weight: 300;
+            text-align: left;
+            letter-spacing: 0.2rem;
+            margin-bottom: 3rem;
+        }
+        p{
+            flex: 1;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Dosis';
+            font-weight: 300;
+            text-align: left;
+            letter-spacing: 0.1rem;
+        }
+    }
+}
+
+
+
+.main3{
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(19, 24, 29,0.9);
+    background-blend-mode: multiply;
+    background-image: url(../assets/sec2bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70% !important;
+    padding: 7rem 10% 5rem 10%;
+    .news{
+        flex: 1;
+        h1{
+            flex: 1;
+            color: white;
+            font-size: 5rem;
+            text-transform: uppercase;
+            font-family: 'Dosis';
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: 0.2rem;
+        }
+        p{
+            flex: 1;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Dosis';
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: 0.1rem;
+        }
+        form{
+            flex: 1;
+            input[type='email']{
+                height: 5rem;
+                width: 50rem;
+                padding: 0.5rem 1.5rem;
+                border:white solid 3px;
+                background-color: rgba(19, 24, 29,0.9);
+                color: white;
+                margin-right: 2rem;
+                font-size: 2rem;
+            }
+            input[type='submit']{
+                font-family: 'Montserrat';
+                font-size: 2rem;
+                height: 5rem;
+                width: 15rem;
+                padding: 1rem;
+                background-color: rgba(19, 24, 29,0.9);
+                color: white;
+                border-style: none;
+                border:white solid 3px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+.main4{
+    width: 100vw;
+    padding: 7rem 0 3rem 0;
+    background-color: var(--gray-dark);
+    h2{
+        text-transform: uppercase;
+        color:white;
+        font-family: 'Dosis';
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom:5rem ;
+        letter-spacing: 0.3rem;
+    }
+    .wrapper{
+        padding: 0 10%;
+        
+        .banner{
+            flex: 1;
+            .circle{
+                height: 20rem;
+                width: 20rem;
+                border-radius: 50%;
+                background: #0F2027;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                margin-bottom: 3rem;
+                svg{
+                    width: 60%;
+                    height: 60%;
+                }
+            }
+            h4,p{
+                font-family: 'Dosis';
+                color: white;
+                font-weight: 300;
+                text-align: center;
+            }
+            h4{
+                font-size: 3rem;
+                letter-spacing: 0.2rem;
+                margin-bottom: 2rem;
+            }
+            p{
+                font-size: 1.8rem;
+                letter-spacing: 0.1rem;
+            }
+
+        }
+        
+    }
+    
+}
+
+
+.main5{
+    background-color: rgba(19, 24, 29,0.9);
+    background-position: 50% 50% !important;
+    background-image: url(../assets/sec1bg.jpg);
+    background-repeat: repeat;
+    background-size: cover !important;
+    background-blend-mode: multiply;
+  .hero{
+        flex: 1;
+        padding: 7rem 0 5rem 10%;
+        h1,p{
+            font-family: 'Dosis';
+            font-weight: 300;
+            color: white;
+        }
+        h1{
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            letter-spacing: 0.3rem;
+            font-size: 3.5rem;
+        }
+        p{
+            letter-spacing: 0.1rem;
+            font-size: 1.6rem;
+        }
+  }
+  .available{
+      padding: 7rem 5% 5rem 0;
+      flex: 1;
+        .android,.ios,.windows{
+            height: 10rem;
+            width: 30rem;
+            padding: 1rem 0.5rem;
+            background: #0F2027;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            margin-bottom: 2rem;
+            h2{
+                color: white;
+                font-size: 2.3rem;
+                letter-spacing: 0.15rem;
+                text-align: center;
+                margin-bottom: 1rem;
+                font-family: 'Dosis';
+                font-weight: 300;
+            }
+            .banner-container{
+                cursor: pointer;
+            }
+        }
+  }
+}
+
+.footer{
+    position: relative;
+    z-index: -5;
+    height: 100vh;
+    width: 100vw;
+    padding: 9rem 0 3rem 0;
+    background-color: rgba(52, 58, 64, 1);
+    h1{
+        text-transform: uppercase;
+        color:white;
+        font-family: 'Dosis';
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom:5rem ;
+        letter-spacing: 0.3rem;
+    }
+
+
+    .copyright{
+        width: 100vw;
+        padding: 1rem;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        p{
+            text-transform: uppercase;
+            font-family: 'Montserrat';
+            letter-spacing: 0.2rem;
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+
+        }
+    }
+}
