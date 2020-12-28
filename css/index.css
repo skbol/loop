@@ -322,6 +322,9 @@ body {
 
 
 @media (max-width: 1238px) {
+  body {
+    overflow-x: hidden;
+  }
   .main4 .wrapper .banner h4 {
     font-size: 2.3rem;
     letter-spacing: 0.2rem;
@@ -334,6 +337,9 @@ body {
   }
 }
 @media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
   .main4 .wrapper .banner .circle {
     height: 15rem;
     width: 15rem;
@@ -344,6 +350,9 @@ body {
 
 
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .main2 img {
     height: 40rem;
     width: auto;
@@ -403,6 +412,9 @@ body {
 }
 
 @media (max-width: 724px) {
+  body {
+    overflow-x: hidden;
+  }
   .main h1 {
     font-size: 6rem;
   }
@@ -428,6 +440,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   .main h1 {
     font-size: 6rem;
   }
@@ -478,6 +493,9 @@ body {
 }
 
 @media (max-width: 526px) {
+  body {
+    overflow-x: hidden;
+  }
   .main h1 {
     font-size: 5.8rem;
   }
@@ -493,6 +511,9 @@ body {
 }
 
 @media (max-width: 503px) {
+  body {
+    overflow-x: hidden;
+  }
   .main h1 {
     font-size: 5.5rem;
     text-align: center;
@@ -505,6 +526,9 @@ body {
 }
 
 @media (max-width: 490px) {
+  body {
+    overflow-x: hidden;
+  }
   .main3{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -516,6 +540,9 @@ body {
 }
 
 @media (max-width: 387px) {
+  body {
+    overflow-x: hidden;
+  }
   .main3{
     padding-left: 1rem;
     padding-right: 1rem;
