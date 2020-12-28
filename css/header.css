@@ -44,7 +44,10 @@
 /*# sourceMappingURL=header.css.map */
 
 @media (max-width: 576px) {
-  .nav-bar{
+  .nav-bar .logo{
+    display: none;
+  }
+  .nav-bar .nav-links{
     display: none;
   }
 }
