@@ -42,3 +42,9 @@
   color: lightcoral;
 }
 /*# sourceMappingURL=header.css.map */
+
+@media (max-width: 576px) {
+  .nav-bar{
+    display: none;
+  }
+}
