@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./glide/glider.min.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/utilities.css">
@@ -120,10 +121,26 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div class="usr-rev">
+
         <h1>What Our Users Said</h1>
-        
+
+        <div class="glider-contain">
+            <div class="glider">
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
     </div>
+
+    
+    
 
     <script>
         // When the user scrolls down 50px from the top of the document, resize the header's font size
@@ -142,7 +159,20 @@
         }
     </script>   
 
+    <script src="./glide/glider.min.js"></script>
+
     <script>
+        new Glider(document.querySelector('.glider'), {
+        slidesToShow: 1,
+        dots: '.dots',
+        arrows: {
+            prev: '.glider-prev',
+            next: '.glider-next'
+        }
+    });
+
     </script>
+
+
 </body>
 </html>

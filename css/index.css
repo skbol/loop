@@ -280,16 +280,14 @@ body {
   cursor: pointer;
 }
 
-.footer {
-  position: relative;
-  z-index: -5;
+.usr-rev {
   height: 100vh;
   width: 100vw;
   padding: 9rem 0 3rem 0;
   background-color: #343a40;
 }
 
-.footer h1 {
+.usr-rev h1 {
   text-transform: uppercase;
   color: white;
   font-family: 'Dosis';
