@@ -297,9 +297,15 @@ body {
   letter-spacing: 0.3rem;
 }
 
+
+.glider{
+  overflow-x: hidden;
+  padding: 0rem 2rem;
+}
+
 .card {
-  margin: 0rem 2rem;
-  background: #fff;
+  margin: 0rem 5rem 0rem 1rem;
+  background: rgba(35, 30, 57, 1);
   border-radius: 4px;
   -webkit-box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
           box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
@@ -313,6 +319,7 @@ body {
           flex-direction: row;
   border-radius: 25px;
   position: relative;
+  color: white;
 }
 
 .card h2 {
